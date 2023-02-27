@@ -669,6 +669,17 @@ errors4.
 Modified version of errors6 with simple error Handling and different errors
 """
 
+[[exercises]]
+name = "errors8"
+path = "exercises/error_handling/errors8.rs"
+mode = "test"
+hint = """
+This exercise uses a completed version of `PositiveNonzeroInteger` from
+errors4.
+
+Original problem errors6.rs
+"""
+
 # Generics
 
 [[exercises]]
