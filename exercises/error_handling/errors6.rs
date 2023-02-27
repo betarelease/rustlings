@@ -1,4 +1,5 @@
-// errors6.rs
+// Modified errors6.rs - to go through steps of error handling and learn the refactorings instead of jumping to the
+// final state of design as shown in original errors6.rs (in my case this is now renamed as errors7.rs)
 
 // Using catch-all error types like `Box<dyn error::Error>` isn't recommended
 // for library code, where callers might want to make decisions based on the
@@ -7,8 +8,6 @@
 // what to do next when our function returns an error.
 
 // Execute `rustlings hint errors6` or use the `hint` watch subcommand for a hint.
-
-// I AM NOT DONE
 
 use std::num::ParseIntError;
 
@@ -28,7 +27,6 @@ mod test {
 
     #[test]
     fn test_parse_error() {
-        // We can't construct a ParseIntError, so we have to pattern match.
         assert!(matches!(
             parse_pos_nonzero("not a number"),
             Err(ParseIntError))

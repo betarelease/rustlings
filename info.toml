@@ -658,6 +658,17 @@ with `map_err()`.
 Read more about `map_err()` in the `std::result` documentation:
 https://doc.rust-lang.org/std/result/enum.Result.html#method.map_err"""
 
+[[exercises]]
+name = "errors7"
+path = "exercises/error_handling/errors7.rs"
+mode = "test"
+hint = """
+This exercise uses a completed version of `PositiveNonzeroInteger` from
+errors4.
+
+Modified version of errors6 with simple error Handling and different errors
+"""
+
 # Generics
 
 [[exercises]]
