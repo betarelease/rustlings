@@ -7,7 +7,7 @@
 // we define a custom error type to make it possible for callers to decide
 // what to do next when our function returns an error.
 
-// Execute `rustlings hint errors6` or use the `hint` watch subcommand for a hint.
+// Execute `rustlings hint errors7` or use the `hint` watch subcommand for a hint.
 
 
 use std::num::ParseIntError;
